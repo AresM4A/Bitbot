@@ -6,4 +6,3 @@ Son code est quant à lui soumis à la liscence Creative Common. (voire le LICEN
 Cordialement, 
 AresM4A.
 
-Discord Tag actuel: 

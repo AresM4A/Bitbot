@@ -4,3 +4,4 @@ Ce bot n'est qu'un projet d'école à but non lucratif et servant à m'exercé, 
 Respectueusement, 
 AresM4A.
 
+Post-Scriptum: Les images utilisée par le bot discord sont non-contractuelle et ne m'appartiennent en aucun cas.

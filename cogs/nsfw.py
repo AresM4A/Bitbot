@@ -32,7 +32,7 @@ class Nsfw(commands.Cog):
             embed.set_image(url=chosen_fuck)
             await ctx.send(f"**{ctx.author.mention} baise avec {member.mention} !**", embed = embed)
         else:
-            await ctx.send('Tu ne peux pas utiliser mes commandes NSFW dans ce salon {ctx.author.mention} !')
+            await ctx.send(f'Tu ne peux pas utiliser mes commandes NSFW dans ce salon {ctx.author.mention} !')
 
     @fuck.error
     async def fuck_error(self, ctx, error):

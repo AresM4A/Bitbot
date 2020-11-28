@@ -42,11 +42,6 @@ class Help(commands.Cog):
             moderation.add_field(name='unwarn', value="Vous permet de retirer un avertissement à un membre.\nUtilisation: b!unwarn {mention}", inline=False)
             moderation.add_field(name='clearwarn', value="Vous permet de supprimer le casier judiciaire d'un membre.\nUtilisation: b!clearwarn {mention}", inline=False)
 
-            #à faire: commande b!nick (changer le pseudo)
-            #finir la parti "Fun"
-            #finir la parti NSFW + l'aide de cette partie
-            #créer une économie et voir de ce que font les autres bots '^'
-            #custom "on join role system"
 
             diverses = discord.Embed(colour = discord.Colour.orange(), title = 'Diverses')
             diverses.add_field(name = 'help', value = 'Affiche cette aide.\nUtilisation: b![h|help]', inline=False)

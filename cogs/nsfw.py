@@ -1,3 +1,5 @@
+#Depreciated
+
 import os
 import discord
 import json

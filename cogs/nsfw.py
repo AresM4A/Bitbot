@@ -87,5 +87,5 @@ class Nsfw(commands.Cog):
         else:
             await ctx.send(f'Tu ne peux pas utiliser mes commandes NSFW dans ce salon {ctx.author.mention} !')
 
-def setup(client):
-    client.add_cog(Nsfw(client))
+#def setup(client):
+    #client.add_cog(Nsfw(client))

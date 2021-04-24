@@ -53,12 +53,6 @@ class Help(commands.Cog):
             diverses.add_field(name='userinfo', value='Je vous donne toutes les informations concernant un membre du serveur.\nUtilisation: b![userinfo|user]', inline = False)
             diverses.add_field(name='me', value='Donne toute les informations vous concernant.\nUtilisation: b!me', inline = False)
 
-
-            #nsfw = discord.Embed(colour=discord.Colour.magenta(), title="Nsfw")
-            #nsfw.add_field(name="fuck", value="Cela vous permet de copuler avec un autre membre de votre espèce. Si personne ne veux le pratiquer avec vous, je suis aussi un sex-bot !\nUtilisation: b!fuck <mention>", inline=False)
-            #nsfw.add_field(name="furry", value="Cela vous envoie une image aléatoire de porn-furry venant de ma base de donnée.\nUtilisation: b!furry", inline=False)
-            #nsfw.add_field(name='nsfwbooru', value='Cela vous envoie une image aléatoire venant du site Gelbooru.com. Votre commande peut contenir des tags dit "nsfw".\nUtilisation: b![hentaibooru|hbooru] <tag(s)>\nExemple: b!hbooru nude, 1girl', inline=False)
-
             img = discord.Embed(colour=discord.Colour.green(), title='Images et gifs.')
             img.add_field(name="sfwbooru", value='Cela vous envoie une image aléatoire du site Gelbooru.com. Les tags dit "nsfw" sont desactivés pour cette commande.\nUtilisation: b![sfwbooru|booru] <tag(s)>\nExemple: b!booru 1girl', inline=False)
             img.add_field(name="nsfwbooru", value='Cela vous envoie une image aléatoire du site Gelbooru.com. Les tags dit "nsfw" sont activés pour cette commande.\nUtilisation: b![nsfwbooru|hbooru|hentaibooru] <tag(s)>\nExemple: b!hbooru 1girl, breasts', inline=False)
@@ -69,7 +63,6 @@ class Help(commands.Cog):
             await author.dm_channel.send(embed=fun)
             await author.dm_channel.send(embed=img)
             await author.dm_channel.send(embed=moderation)
-            #await author.dm_channel.send(embed=nsfw)
             await author.dm_channel.send(embed=diverses)
 
     @_help.error
